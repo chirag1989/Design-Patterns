@@ -1,4 +1,4 @@
-package DesignPatterns.Strategy;
+package DesignPatterns.Strategy.PizzaExample;
 
 public class NoTopping implements Topping {
 
