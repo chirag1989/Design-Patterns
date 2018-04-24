@@ -1,0 +1,2 @@
+# Observer Design Pattern
+A behavioral pattern. Observer patter is used when there is a one to many relationship between objects so that in case of modification of an object, all its dependencies are updated. Eg: RSS Feed

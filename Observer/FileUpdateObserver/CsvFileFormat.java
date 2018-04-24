@@ -26,8 +26,7 @@ public class CsvFileFormat extends FileFormat {
     public void updateFile() throws Exception {
 
         try {
-            BufferedWriter writer =
-                    new BufferedWriter(new FileWriter(file, true));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
 
             writer.write(source.getUpdatedData() + ", ");
 
